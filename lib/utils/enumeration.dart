@@ -1,0 +1,26 @@
+enum APIRequestStatus {
+  unInitialized,
+  loading,
+  loaded,
+  error,
+  connectionError,
+}
+enum RouterPath{
+  authentication,
+  signIn,
+  signUp,
+  allHospitals,
+  hospitalServices,
+  doctors,
+  doctorDetails,
+  notifications,
+  profile,
+  categories,
+  categoryProducts,
+  productDetails,
+  cart,
+  checkout,
+  orderDetails,
+  afripay,
+  chat,
+}
